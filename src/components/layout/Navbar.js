@@ -39,13 +39,13 @@ const Navbar = () => {
                 </Link>
               </li>
 
-              <li className="nav-item nav-link mr-auto">
+              {/* <li className="nav-item nav-link mr-auto">
                 <Link to="/contact" style={linkStyle}>
                   <h5>
                     <font color="white">Contact</font>
                   </h5>
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
