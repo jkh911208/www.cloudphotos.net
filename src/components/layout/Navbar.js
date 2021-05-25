@@ -32,20 +32,20 @@ const Navbar = () => {
               </li>
 
               <li className="nav-item nav-link mr-auto">
-                <Link to="/about" style={linkStyle}>
+                <Link to="/support" style={linkStyle}>
                   <h5>
-                    <font color="white">About Me</font>
+                    <font color="white">Support</font>
                   </h5>
                 </Link>
               </li>
 
-              {/* <li className="nav-item nav-link mr-auto">
-                <Link to="/contact" style={linkStyle}>
+              <li className="nav-item nav-link mr-auto">
+                <Link to="/Privacy" style={linkStyle}>
                   <h5>
-                    <font color="white">Contact</font>
+                    <font color="white">Privacy</font>
                   </h5>
                 </Link>
-              </li> */}
+              </li>
             </ul>
           </div>
         </div>

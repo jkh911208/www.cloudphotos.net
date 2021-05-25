@@ -1,8 +1,9 @@
 import React, { Fragment } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./components/pages/Home";
-import About from "./components/pages/About";
-import Contact from "./components/pages/Contact";
+import Support from "./components/pages/Support";
+import Privacy from "./components/pages/Privacy";
+
 import Navbar from "./components/layout/Navbar";
 
 function App() {
@@ -12,8 +13,8 @@ function App() {
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
-          {/* <Route exact path="/contact" component={Contact} /> */}
+          <Route exact path="/support" component={Support} />
+          <Route exact path="/privacy" component={Privacy} />
         </Switch>
       </Fragment>
     </Router>

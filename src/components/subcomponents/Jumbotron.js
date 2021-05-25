@@ -17,8 +17,8 @@ const Jumbotron = () => {
     <Fragment>
       <div className="jumbotron jumbotron-fluid" style={jumbotronStyle}>
         <div className="container">
-          <h1 style={jumbotronTextStyle}>import james.jeon</h1>
-          <h1 style={jumbotronTextStyle}>print("Welcome!")</h1>
+          <h1 style={jumbotronTextStyle}>Backup your photos for FREE!</h1>
+          <h1 style={jumbotronTextStyle}>Cloud Photos is always free</h1>
         </div>
       </div>
     </Fragment>
