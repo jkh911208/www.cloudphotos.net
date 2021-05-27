@@ -1,18 +1,5 @@
 import React, { Fragment } from "react";
 
-const imgStyle = {
-  objectFit: "cover",
-  maxWidth: "100%",
-  height: "auto",
-};
-
-const linkStyle = {
-  textDecoration: "none",
-  color: "black",
-  transform: "scale(1.2)",
-  transition: "1s",
-};
-
 const Privacy = () => {
   return (
     <Fragment>

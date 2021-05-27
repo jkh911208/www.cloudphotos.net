@@ -1,19 +1,5 @@
 import React, { Fragment } from "react";
 import Jumbotron from "../subcomponents/Jumbotron";
-import { Link } from "react-router-dom";
-
-const imgStyle = {
-  objectFit: "cover",
-  maxWidth: "100%",
-  height: "auto",
-};
-
-const linkStyle = {
-  textDecoration: "none",
-  color: "black",
-  transform: "scale(1.2)",
-  transition: "1s",
-};
 
 const Home = () => {
   return (
@@ -25,10 +11,14 @@ const Home = () => {
             <strong>Backup your photos to Cloud Photos for free</strong>
           </h1>
           <p className="pt-2">
-            Cloud Photos back up your photos for free and store in our server. You can view your photos from any iOS and Android devices that is compatible with our app
+            Cloud Photos back up your photos for free and store in our server.
+            You can view your photos from any iOS and Android devices that is
+            compatible with our app
           </p>
           <p className="pt-2">
-            We are working very hard to expand and improve your experience. You will be able to access your photos from your favorite web browser in the near future. 
+            We are working very hard to expand and improve your experience. You
+            will be able to access your photos from your favorite web browser in
+            the near future.
           </p>
         </div>
       </div>

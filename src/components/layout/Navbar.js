@@ -40,7 +40,7 @@ const Navbar = () => {
               </li>
 
               <li className="nav-item nav-link mr-auto">
-                <Link to="/Privacy" style={linkStyle}>
+                <Link to="/privacy" style={linkStyle}>
                   <h5>
                     <font color="white">Privacy</font>
                   </h5>
