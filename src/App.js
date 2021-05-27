@@ -8,13 +8,21 @@ import Navbar from "./components/layout/Navbar";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Fragment>
         <Navbar />
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/support" component={Support} />
-          <Route exact path="/privacy" component={Privacy} />
+          <Route exact path={process.env.PUBLIC_URL + "/"} component={Home} />
+          <Route
+            exact
+            path={process.env.PUBLIC_URL + "/support"}
+            component={Support}
+          />
+          <Route
+            exact
+            path={process.env.PUBLIC_URL + "/privacy"}
+            component={Privacy}
+          />
         </Switch>
       </Fragment>
     </Router>
